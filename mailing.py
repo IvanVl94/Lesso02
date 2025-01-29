@@ -1,7 +1,7 @@
-from adress import Adress
+from Address import Address
 
 class Mailing:
-    def __init__(self, to_address:Adress , from_address:Adress, cost:float, track:str):
+    def __init__(self, to_address:Address , from_address:Address, cost:float, track:str):
         self.to_address = to_address
         self.from_address = from_address
         self.cost = cost
